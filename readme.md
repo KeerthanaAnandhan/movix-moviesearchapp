@@ -9,7 +9,7 @@ It uses the **TMDb (The Movie Database) API** to fetch real-time movie details l
 
 Add your deployed website link here:
 
-👉 **Demo:** *(Paste your link here)*
+👉 **Demo:** https://keerthanaanandhan.github.io/movix-moviesearchapp/
 
 ---
 
@@ -88,3 +88,4 @@ If you like this project, don't forget to star the repository!
 
 
 ---
+
