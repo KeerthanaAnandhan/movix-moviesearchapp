@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movix – Movie Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">🎬 Movix</h1>
+
+        <div class="searchHeader">
+            <input type="text" id="searchInput" placeholder="Search your favorite movie...">
+            <button id="searchBtn">Search</button>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Find Movies Instantly</h2>
+            <p>Search millions of movies, explore details, and discover what's trending.</p>
+        </div>
+    </section>
+    <section id="movieSection" class="trending-section">
+        <div class="section-header">
+            <h2>🔥 Trending Movies</h2>
+            <div id="dateBox" class="neon-date"></div>
+        </div>
+
+        <div class="slider-wrapper">
+            <button class="slide-btn left-btn">❮</button>
+
+            <div class="movie-slider" id="moviesContainer"></div>
+
+            <button class="slide-btn right-btn">❯</button>
+        </div>
+    </section>
+    <section id="movieDetails" class="details-section hidden">
+        <button id="backBtn" class="back-btn">⬅ Back</button>
+
+        <div class="details-container">
+
+            <div class="poster-wrapper">
+                <img id="detailsPoster" src="" alt="Movie Poster">
+            </div>
+
+            <div class="details-text">
+                <h2 id="detailsTitle"></h2>
+
+                <!-- ADDED Release Date -->
+                <p id="detailsRelease" class="release"></p>
+
+                <!-- Meta Info Badges -->
+                <div class="details-meta">
+                    <span id="detailsRating"></span>
+                    <span id="detailsRuntime"></span>
+                    <span id="detailsCert"></span>
+                    <span id="detailsGenre"></span>
+                </div>
+
+                <!-- Overview -->
+                <h3>Overview</h3>
+                <p id="detailsOverview" class="overview"></p>
+
+                <!-- Cast -->
+                <h3>Top Cast</h3>
+                <p id="detailsCast"></p>
+
+                <!-- TMDb Link -->
+                <a id="detailsLink" class="movie-link-btn" target="_blank">
+                    View on TMDb →
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="searchResultsSection" class="hidden">
+        <h2>Search Results</h2>
+        <div class="grid-container" id="searchResults"></div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+
+            <h3>Movix</h3>
+            <p>Your personal movie explorer.</p>
+
+
+            <p class="footer-disclaimer">
+                This product uses the TMDb API but is not endorsed or certified by TMDb.
+            </p>
+
+            <p class="copyright">
+                © 2025 Movix. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
