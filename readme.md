@@ -51,7 +51,7 @@ Movix uses the **TMDb API**. Follow these steps to get your own TMDb key:
 
 Download or clone the project:
 
-git clone https://github.com/your-username/movix.git
+git clone https://github.com/KeerthanaAnandhan/movix-moviesearchapp
 
 
 Open the folder.
@@ -88,4 +88,5 @@ If you like this project, don't forget to star the repository!
 
 
 ---
+
 
